@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "npm install && npm run serve",
-    "serve": "vue-cli-service serve",
+    "serve": "npm install && vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
