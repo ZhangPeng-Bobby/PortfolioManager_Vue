@@ -6,7 +6,7 @@ import store from './store'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import echarts from 'echarts'  //引入Echarts，
-Vue.prototype.$echarts = echarts  //定义为全局变量
+Vue.prototype.$echarts = echarts
 import apiUrl from './components/Global.vue'
 Vue.prototype.apiUrl = apiUrl.apiUrl;
 
